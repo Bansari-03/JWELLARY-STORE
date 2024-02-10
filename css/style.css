@@ -364,14 +364,20 @@ background: linear-gradient(0deg, rgba(0, 0, 0, 0.7) 0%, rgba(0, 0, 0, 0) 70%);
   color: var(--brown);
   text-decoration: underline 2px solid var(--dark);
 }
+.logo{
+  max-width: 100px;
+}
 .logo-2{
   opacity: 0;
 }
 .header-bg:hover .logo-2{
   opacity: 1;
 }
+.user{
+  justify-content: flex-end !important;
+}
 .user-icons li a{
-  padding: 24px 17px;
+  padding: 24px 10px;
   display: block;
   font-size: 17px;
   font-family: var(--font-dm-sans);
@@ -393,10 +399,10 @@ background: linear-gradient(0deg, rgba(0, 0, 0, 0.7) 0%, rgba(0, 0, 0, 0) 70%);
 .header-bg:hover .text-black {
   color: var(--dark)!important;
 }
-.count{
-  top: 20px;
-  right: -8px;
 
+.count {
+  top: 19px;
+  right: -16px;
 }
 .fixed {
   position: fixed;
@@ -472,7 +478,7 @@ background: linear-gradient(0deg, rgba(0, 0, 0, 0.7) 0%, rgba(0, 0, 0, 0) 70%);
   
 }
 #mainSlider .owl-dots .owl-dot span{
-  width: 70px;
+  width: 26px;
   height: 3px
 }
 #mainSlider .owl-dots .owl-dot span:hover{

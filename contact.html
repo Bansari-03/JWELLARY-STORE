@@ -62,33 +62,33 @@
             </div>
     </section>
 
-    <header class=" blog-header w-100 main-header bottom_header" id="myHeader">
+    <header class="position-fixed z-3 w-100 header-bg bottom_header" id="myHeader">
         <div class="container-fluid">
             <div class="row justify-content-between align-items-center">
                 <nav
                     class="col d-flex justify-content-end justify-content-lg-end justify-content-xl-start order-lg-2 order-xl-1  pe-lg-0 nav-menu d-none d-lg-block">
-                    <ul class="justify-content-end justify-content-xl-start  d-flex main-menu ps-0 mb-0">
+                    <ul class="justify-content-end justify-content-xl-start  d-flex main-menu ps-0 mb-0" id="myNav">
                         <li>
-                            <a href="#" class="active">Home
+                            <a href="index.html" class="active">Home
                                 <i class="fa-solid fa-angle-down fa-xs"></i>
                             </a>
                         </li>
                         <li>
-                            <a href="#">Shop
+                            <a href="blog.html">Shop
                                 <i class="fa-solid fa-angle-down fa-xs"></i>
                             </a>
                         </li>
                         <li>
-                            <a href="#">Product
+                            <a href="blog.html">Product
                                 <i class="fa-solid fa-angle-down fa-xs"></i>
                             </a>
                         </li>
                         <li>
-                            <a href="#">Pages
+                            <a href="index.html">Pages
                                 <i class="fa-solid fa-angle-down fa-xs"></i>
                             </a>
 
-                            <div class="mega-menu blog-mega-menu">
+                            <div class="mega-menu">
                                 <div class="container">
                                     <div class="row">
                                         <div class="col-2">
@@ -96,10 +96,10 @@
                                             <ul class="ps-0">
                                                 <li><a href="#">List left Sidebar</a></li>
                                                 <li><a href="#">List left Sidebar</a></li>
-                                                <li><a href="#">About Us 1</a></li>
-                                                <li><a href="#">About Us 2</a></li>
-                                                <li><a href="#">About Us 3</a></li>
-                                                <li><a href="#">Contact Us</a></li>
+                                                <li><a href="contact.html">About Us 1</a></li>
+                                                <li><a href="contact.html">About Us 2</a></li>
+                                                <li><a href="contact.html">About Us 3</a></li>
+                                                <li><a href="contact.html">Contact Us</a></li>
                                             </ul>
                                         </div>
                                         <div class="col-2">
@@ -145,7 +145,7 @@
                                 <i class="fa-solid fa-angle-down fa-xs"></i>
                             </a>
 
-                            <div class="mega-menu blog-mega-menu">
+                            <div class="mega-menu">
                                 <div class="container">
                                     <div class="row">
                                         <div class="col-2">
@@ -208,156 +208,162 @@
                                     </div>
                                 </div>
                             </div>
+
+
                         </li>
                     </ul>
                 </nav>
 
-               <!-- for mobile screen start-->
 
-               <div class="col mob_menu d-lg-none">
-                <div class="d-flex align-items-center">
-                    <div class="toggle_icon" data-bs-toggle="offcanvas" data-bs-target="#staticBackdrop"
-                        aria-controls="staticBackdrop">
-                        <i class="fa fa-bars fa-xl d-block scroll-a"></i>
-                    </div>
 
-                    <div class="offcanvas offcanvas-start" data-bs-backdrop="static" tabindex="-1"
-                        id="staticBackdrop" aria-labelledby="staticBackdropLabel">
-                        <div class="offcanvas-header">
-                            <button type="button" class="btn-close" data-bs-dismiss="offcanvas"
-                                aria-label="Close"></button>
+                <!-- for mobile screen start-->
+
+                <div class="col mob_menu d-lg-none">
+                    <div class="d-flex align-items-center">
+                        <div class="toggle_icon" data-bs-toggle="offcanvas" data-bs-target="#staticBackdrop"
+                            aria-controls="staticBackdrop">
+                            <i class="fa fa-bars fa-xl d-block scroll-a"></i>
                         </div>
-                        <div class="offcanvas-body">
-                            <div class="accordion accordion-flush" id="accordionFlushExample">
-                                <div class="accordion-item mob-item">
-                                    <h2 class="accordion-header mob-head">
-                                        <button class="accordion-button collapsed" type="button"
-                                            data-bs-toggle="collapse" data-bs-target="#flush-collapseOne"
-                                            aria-expanded="false" aria-controls="flush-collapseOne">
-                                            Home
-                                        </button>
-                                    </h2>
-                                    <div id="flush-collapseOne" class="accordion-collapse collapse"
-                                        data-bs-parent="#accordionFlushExample">
-                                        <div class="accordion-body">
-                                            <ul class="mob-sub-menu">
-                                                <li><a href="#">Fashion</a></li>
-                                                <li><a href="#">Layout Fashion</a></li>
-                                                <li><a href="#">Other Demo</a></li>
-                                                <li><a href="#">Other</a></li>
-                                            </ul>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="accordion-item">
-                                    <h2 class="accordion-header mob-head">
-                                        <button class="accordion-button collapsed" type="button"
-                                            data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo"
-                                            aria-expanded="false" aria-controls="flush-collapseTwo">
-                                            Shop
-                                        </button>
-                                    </h2>
-                                    <div id="flush-collapseTwo" class="accordion-collapse collapse"
-                                        data-bs-parent="#accordionFlushExample">
-                                        <div class="accordion-body">
-                                            <ul class="mob-sub-menu">
-                                                <li><a href="#">Feature</a></li>
-                                                <li><a href="#">Layout</a></li>
-                                                <li><a href="#">Style</a></li>
 
-                                            </ul>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="accordion-item">
-                                    <h2 class="accordion-header mob-head">
-                                        <button class="accordion-button collapsed" type="button"
-                                            data-bs-toggle="collapse" data-bs-target="#flush-collapseThree"
-                                            aria-expanded="false" aria-controls="flush-collapseThree">
-                                            Product
-                                        </button>
-                                    </h2>
-                                    <div id="flush-collapseThree" class="accordion-collapse collapse"
-                                        data-bs-parent="#accordionFlushExample">
-                                        <div class="accordion-body">
-                                            <ul class="mob-sub-menu">
-                                                <li><a href="#">Product layout</a></li>
-                                                <li><a href="#">Product Type</a></li>
-                                                <li><a href="#">List Feature1</a></li>
-                                                <li><a href="#">ListFeayure2</a></li>
-                                            </ul>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="accordion-item">
-                                    <h2 class="accordion-header mob-head">
-                                        <button class="accordion-button collapsed" type="button"
-                                            data-bs-toggle="collapse" data-bs-target="#flush-collapseFour"
-                                            aria-expanded="false" aria-controls="flush-collapseFour">
-                                            Pages
-                                        </button>
-                                    </h2>
-                                    <div id="flush-collapseFour" class="accordion-collapse collapse"
-                                        data-bs-parent="#accordionFlushExample">
-                                        <div class="accordion-body">
-                                            <ul class="mob-sub-menu">
-                                                <li><a href="#">Content1</a></li>
-                                                <li><a href="#">Content2</a></li>
-
-                                            </ul>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="accordion-item">
-                                    <h2 class="accordion-header mob-head">
-                                        <button class="accordion-button collapsed" type="button"
-                                            data-bs-toggle="collapse" data-bs-target="#flush-collapseFive"
-                                            aria-expanded="false" aria-controls="flush-collapseFive">
-                                            Blog
-                                        </button>
-                                    </h2>
-                                    <div id="flush-collapseFive" class="accordion-collapse collapse"
-                                        data-bs-parent="#accordionFlushExample">
-                                        <div class="accordion-body">
-                                            <ul class="mob-sub-menu">
-                                                <li><a href="#">List layout</a></li>
-                                                <li><a href="#">Grid layout</a></li>
-                                                <li><a href="#">Article</a></li>
-
-                                            </ul>
-                                        </div>
-                                    </div>
-                                </div>
-
+                        <div class="offcanvas offcanvas-start" data-bs-backdrop="static" tabindex="-1"
+                            id="staticBackdrop" aria-labelledby="staticBackdropLabel">
+                            <div class="offcanvas-header">
+                                <button type="button" class="btn-close" data-bs-dismiss="offcanvas"
+                                    aria-label="Close"></button>
                             </div>
+                            <div class="offcanvas-body">
+                                <div class="accordion accordion-flush" id="accordionFlushExample">
+                                    <div class="accordion-item mob-item">
+                                        <h2 class="accordion-header mob-head">
+                                            <button class="accordion-button collapsed" type="button"
+                                                data-bs-toggle="collapse" data-bs-target="#flush-collapseOne"
+                                                aria-expanded="false" aria-controls="flush-collapseOne">
+                                                Home
+                                            </button>
+                                        </h2>
+                                        <div id="flush-collapseOne" class="accordion-collapse collapse"
+                                            data-bs-parent="#accordionFlushExample">
+                                            <div class="accordion-body">
+                                                <ul class="mob-sub-menu">
+                                                    <li><a href="index.html">Fashion</a></li>
+                                                    <li><a href="index.html">Layout Fashion</a></li>
+                                                    <li><a href="index.html">Other Demo</a></li>
+                                                    <li><a href="index.html">Other</a></li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="accordion-item">
+                                        <h2 class="accordion-header mob-head">
+                                            <button class="accordion-button collapsed" type="button"
+                                                data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo"
+                                                aria-expanded="false" aria-controls="flush-collapseTwo">
+                                                Shop
+                                            </button>
+                                        </h2>
+                                        <div id="flush-collapseTwo" class="accordion-collapse collapse"
+                                            data-bs-parent="#accordionFlushExample">
+                                            <div class="accordion-body">
+                                                <ul class="mob-sub-menu">
+                                                    <li><a href="blog.html">Feature</a></li>
+                                                    <li><a href="index.html">Layout</a></li>
+                                                    <li><a href="blog.html">Style</a></li>
 
-                            <ul class="mob-user ps-3">
-                                <li>
-                                    <a href="login.html">
-                                        Login
-                                        <span>/</span>
-                                        Register
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="#">USD$
-                                        <i class="fa-solid fa-angle-down fa-xs"></i>
-                                    </a>
-                                    <a href="#" class="ps-3">English
-                                        <i class="fa-solid fa-angle-down fa-xs"></i>
-                                    </a>
-                                </li>
-                            </ul>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="accordion-item">
+                                        <h2 class="accordion-header mob-head">
+                                            <button class="accordion-button collapsed" type="button"
+                                                data-bs-toggle="collapse" data-bs-target="#flush-collapseThree"
+                                                aria-expanded="false" aria-controls="flush-collapseThree">
+                                                Product
+                                            </button>
+                                        </h2>
+                                        <div id="flush-collapseThree" class="accordion-collapse collapse"
+                                            data-bs-parent="#accordionFlushExample">
+                                            <div class="accordion-body">
+                                                <ul class="mob-sub-menu">
+                                                    <li><a href="blog.html">Product layout</a></li>
+                                                    <li><a href="blog.html">Product Type</a></li>
+                                                    <li><a href="index.html">List Feature1</a></li>
+                                                    <li><a href="index.html">ListFeayure2</a></li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="accordion-item">
+                                        <h2 class="accordion-header mob-head">
+                                            <button class="accordion-button collapsed" type="button"
+                                                data-bs-toggle="collapse" data-bs-target="#flush-collapseFour"
+                                                aria-expanded="false" aria-controls="flush-collapseFour">
+                                                Pages
+                                            </button>
+                                        </h2>
+                                        <div id="flush-collapseFour" class="accordion-collapse collapse"
+                                            data-bs-parent="#accordionFlushExample">
+                                            <div class="accordion-body">
+                                                <ul class="mob-sub-menu">
+                                                    <li><a href="contact.html">contact Us</a></li>
+                                                    <li><a href="404.html">404</a></li>
+                                                    <li><a href="contact.html">Faqs</a></li>
+                                                    <li><a href="contact.html">Carrer</a></li>
+
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="accordion-item">
+                                        <h2 class="accordion-header mob-head">
+                                            <button class="accordion-button collapsed" type="button"
+                                                data-bs-toggle="collapse" data-bs-target="#flush-collapseFive"
+                                                aria-expanded="false" aria-controls="flush-collapseFive">
+                                                Blog
+                                            </button>
+                                        </h2>
+                                        <div id="flush-collapseFive" class="accordion-collapse collapse"
+                                            data-bs-parent="#accordionFlushExample">
+                                            <div class="accordion-body">
+                                                <ul class="mob-sub-menu">
+                                                    <li><a href="blog.html">List layout</a></li>
+                                                    <li><a href="blog.html">Grid layout</a></li>
+                                                    <li><a href="blog.html">Article</a></li>
+
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                </div>
+
+                                <ul class="mob-user ps-3">
+                                    <li>
+                                        <a href="login.html">
+                                            Login
+                                            <span>/</span>
+                                            Register
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#">USD$
+                                            <i class="fa-solid fa-angle-down fa-xs"></i>
+                                        </a>
+                                        <a href="#" class="ps-3">English
+                                            <i class="fa-solid fa-angle-down fa-xs"></i>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
                         </div>
                     </div>
                 </div>
-            </div>
-            <!-- for mobile screen end-->
+                <!-- for mobile screen end-->
 
                 <div
-                    class="col-auto  justify-content-center justify-content-lg-end d-flex order-md-2 order-lg-1 order-xl-2 position-relative ">
-                    <!-- <img src="assets/logo-bw.png" alt="" width="140px" class="logo-1"> -->
-                    <img src="assets/logo-black.png" alt="" width="140px">
+                    class="col-auto  justify-content-center justify-content-lg-end d-flex order-md-2 order-lg-1 order-xl-2 position-relative">
+                    <img src="assets/logo-bw.png" alt="" width="140px" class="logo-1">
+                    <img src="assets/logo-black.png" alt="" width="140px" class="position-absolute logo-2">
                 </div>
                 <div
                     class="col justify-content-end justify-content-md-end justify-content-lg-start justify-content-xl-end d-flex order-md-3 order-lg-3">
@@ -378,8 +384,8 @@
 
                             </a>
                         </li>
-                        <li class="d-none">
-                            <a href="#">
+                        <li class="d-none d-lg-block">
+                            <a href="login.html">
                                 <i class="fa-regular fa-user fa-xl"></i>
                             </a>
                         </li>
