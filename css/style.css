@@ -222,6 +222,9 @@ h1,h2,h3,h4,h5,h6{
   font-weight: var(--dm-sans-500);
   color: var(--light);
 }
+.main-menu1 li a{
+  color: var(--dark);
+}
 .toggle_icon i{
   color: var(--light);
 }
@@ -383,6 +386,9 @@ background: linear-gradient(0deg, rgba(0, 0, 0, 0.7) 0%, rgba(0, 0, 0, 0) 70%);
   font-family: var(--font-dm-sans);
   font-weight: var(--dm-sans-500);
   color: var(--light);
+}
+.user-icons1 li a{
+  color: var(--dark);
 }
 .fa-angle-down{
   vertical-align:baseline;

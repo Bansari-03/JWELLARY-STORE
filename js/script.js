@@ -149,6 +149,26 @@ $(document).ready(function () {
       }
   });
 })
+// for other pages
+$(document).ready(function () {
+  // sticky Header
+  var stickyOffset = $(".bottom_header1").offset().top;
+
+  $(window).scroll(function () {
+      if ($(window).scrollTop() > stickyOffset) {
+          $(".bottom_header1").addClass("fixed");
+        //   $(".bottom_header").find("a").addClass('scroll-a')
+        //   $(".logo-2").css("opacity","1")
+        //   $(".toggle_icon i").addClass("scroll-a")
+      } else {
+          // Remove the fixed class if the user scrolls back up
+          $(".bottom_header1").removeClass("fixed");
+        //   $(".bottom_header").find("a").removeClass('scroll-a')
+        //   $(".logo-2").css("opacity","0")
+        //   $(".toggle_icon i").removeClass("scroll-a")
+      }
+  });
+})
 
 // Modal
 
